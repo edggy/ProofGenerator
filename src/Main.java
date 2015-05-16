@@ -8,7 +8,7 @@ import api.exception.*;
 
 public class Main {
 
-	public static BufferedWriter logbf;
+	public static BufferedWriter logbf = null;
 	/**
 	 * @param args
 	 */
@@ -114,7 +114,8 @@ public class Main {
 			p.addRule(mpInference);
 			p.addRule(subInference);
 			
-			p.prove(simpPre, logbf);
+			if(logbf != null) p.prove(simpPre, logbf);
+			else p.prove(simpPre);
 			//p.prove(simpPre,false);
 		} catch (InvalidExpressionException e) {
 			// TODO Auto-generated catch block
