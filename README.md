@@ -12,4 +12,4 @@ Example:
 	java -jar Nicod.jar -o Output.txt -p |X1||X2|X1X1|X2|X1X1 -n Prefix
 
 Notes:
-	I currently only have tested the 
+	I currently only have tested the Prefix parser, so Infix and Postfix might not work
