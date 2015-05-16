@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Nicod.jar</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/bin/Nicod.jar</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
